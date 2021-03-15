@@ -104,4 +104,4 @@ exclude:
   - netlify.toml
   - stackbit-build.sh
   - stackbit-pull.js
-domain: 'https:themanuscript.co'
+domain: 'https://themanuscript.co'
