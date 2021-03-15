@@ -548,6 +548,48 @@
   overflow: visible;
 }
 
+//------ Podcast Player -----------//
+
+.podcastPlayer {
+  width: 280px;
+}
+
+@media (min-width: 400px) {
+  .podcastPlayer{
+    width: 350px;
+  }
+}
+
+@media (min-width: 500px) {
+  .podcastPlayer{
+    width: 450px;
+  }
+}
+
+@media (min-width: 700px) {
+  .podcastPlayer{
+    width: 650px;
+  }
+}
+
+@media (min-width: 900px) {
+  .podcastPlayer{
+    width: 1250px;
+  }
+}
+
+//---------- Platforms -------------//
+
+.platforms-wrapper{
+  display: flex;
+  justify-content: space-around;
+}
+
+.platform-icon:hover{
+  transform: scale(1.2);
+}
+
+
 // Section background variations
 .block {
   &.bg-white + &.bg-white,

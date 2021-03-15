@@ -3,130 +3,90 @@ title: Home
 sections:
   - section_id: hero
     type: section_hero
-    image: images/hero.png
+    image: images/hero1.png
     image_alt: App preview
-    title: This Is A Big Hero Headline
+    title: The Manu&lt;script&gt;
     content: >-
-      Azimuth is the perfect theme for developers, designers and entrepreneurs
-      who need a sleek, modern SaaS site.
+      The podcast where we delve into the intersection of <strong>writing</strong> and the development of <strong>technology</strong> products. 
     actions:
-      - label: Learn More
-        url: /features
+      - label: Listen Now!
+        url: /index#episodes
         style: primary
-  - section_id: features
+  - section_id: episodes
     type: section_features
     background: gray
-    title: Features
+    title: Episodes
     subtitle: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus.
-    features:
-      - title: The Best Feature of Your Services
-        image: images/feature1.png
-        image_alt: App preview on a phone and tablet
-        content: >-
-          Nam pulvinar ante eu ultricies volutpat. Aenean hendrerit, eros sed
-          aliquet luctus, lorem risus volutpat dolor, nec dignissim diam neque
-          consequat ex.
-        actions:
-          - label: Learn More
-            url: /features
-            style: secondary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
-      - title: Awesome Feature of Your Services
-        image: images/feature2.png
-        image_alt: App users welcoming a new member
-        content: >-
-          Etiam vel urna sed massa egestas vulputate eu a velit. Sed ut nisl nec
-          sapien interdum luctus. Cras rhoncus condimentum metus sit amet
-          auctor.
-        actions:
-          - label: Learn More
-            url: /features
-            style: secondary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
-      - title: Cool Feature of Your Services
-        image: images/feature3.png
-        image_alt: App user profile preview
-        content: >-
-          In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
-          quis venenatis sem. Proin eget massa id metus eleifend maximus sit
-          amet nec urna.
-        actions:
-          - label: Learn More
-            url: /features
-            style: secondary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
+      A full list of the episodes we published so far. Enjoy! =)
+    # features:
+    #   - title: The Best Feature of Your Services
+    #     image: images/feature1.png
+    #     image_alt: App preview on a phone and tablet
+    #     content: >-
+    #       Nam pulvinar ante eu ultricies volutpat. Aenean hendrerit, eros sed
+    #       aliquet luctus, lorem risus volutpat dolor, nec dignissim diam neque
+    #       consequat ex.
+    #     actions:
+    #       - label: Learn More
+    #         url: /features
+    #         style: secondary
+    #         has_icon: true
+    #         icon: arrow-right
+    #         icon_position: right
   - section_id: reviews
     type: section_reviews
     background: white
-    title: Testimonials
+    title: The Hosts
     subtitle: >-
-      Aliquam malesuada ligula eget est fringilla blandit. Integer finibus
-      semper libero id sodales.
+      Who is behind the podcast and why we do it.
     reviews:
-      - author: Eric Widget
-        avatar: images/review1.jpg
-        avatar_alt: Eric Widget's photo
+      - author: Juliana Meyer
+        avatar: images/julianaMeyer.jpg
+        avatar_alt: Juliana Meyer's photo
         content: >-
-          Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
-          nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
-      - author: Parsley Montana
-        avatar: images/review2.jpg
-        avatar_alt: Parsley Montana's photo
+          Juliana is a Technical Writer working for VTEX. Her background is in Management but she's curious enough to move across multiple areas such as UX, Writing, and Information Architecture.
+      - author: Breno Barreto
+        avatar: images/brenoBarreto.jpg
+        avatar_alt: Breno Barreto's photo
         content: >-
-          Sed laoreet magna commodo libero euismod sodales. Nunc ac libero
-          convallis, interdum ligula vel, pretium diam. Integer commodo sem at
-          dui sollicitudin, vel posuere justo laoreet.
-      - author: Jonquil Von Haggerston
-        avatar: images/review3.jpg
-        avatar_alt: Jonquil Von Haggerston's photo
-        content: >-
-          Integer consectetur purus neque, ac porttitor enim convallis vitae.
-          Interdum et malesuada fames ac ante ipsum primis in faucibus.
+          Breno is a Journalist and Software Development enthusiast. After working at companies such as TV Globo, L'Oréal, and VTEX, he currently works as a Technical Writer at Nubank's engineering team.
   - section_id: call-to-action
     type: section_cta
-    title: This Is Call To Action Block!
-    subtitle: This is an optional description for the call to action block.
+    title: Stay tuned!
+    subtitle: Subscribe to the podcast on your favorite platform.
     actions:
-      - label: Get Started
-        url: /signup
+      - label: Let's Go
+        url: /subscribe
         style: primary
-  - section_id: recent-posts
-    type: section_posts
-    background: gray
-    title: Latest Posts
+  # - section_id: recent-posts
+  #   type: section_posts
+  #   background: gray
+  #   title: Latest Posts
 seo:
-  title: Stackbit Azimuth Theme
-  description: The preview of the Azimuth theme
+  title: The Manuscript Podcast
+  description: All the episodes published by The Manuscript, a podcast that delves into the intersection of writing and tech.
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Stackbit Azimuth Theme
+      value: The Manuscript Podcast
       keyName: property
     - name: 'og:description'
-      value: The preview of the Azimuth theme
+      value: All the episodes published by The Manuscript, a podcast that delves into the intersection of writing and tech.
       keyName: property
     - name: 'og:image'
-      value: images/hero.png
+      value: images/hero1.png
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Stackbit Azimuth Theme
+      value: The Manuscript Podcast
     - name: 'twitter:description'
-      value: The preview of the Azimuth theme
+      value: All the episodes published by The Manuscript, a podcast that delves into the intersection of writing and tech.
     - name: 'twitter:image'
-      value: images/hero.png
+      value: images/hero1.png
       relativeUrl: true
 layout: landing
 ---

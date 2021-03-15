@@ -1,4 +1,4 @@
-{% assign section = include.section %}
+<!-- {% assign section = include.section %}
 <section id="{{ section.section_id }}" class="block features-block bg-{{ section.background }} outer">
   <div class="block-header inner-small">
     {% assign title_is_not_empty = section.title | is_not_empty %}
@@ -42,4 +42,396 @@
     {% endfor %}
     </div>
   {% endif %}
-</section><!-- .block -->
+</section> -->
+<!-- .block -->
+
+{% assign section = include.section %}
+<section
+  id="{{ section.section_id }}"
+  class="block features-block bg-{{ section.background }} outer"
+>
+  <div class="block-header inner-small">
+    {% assign title_is_not_empty = section.title | is_not_empty %}
+    {% if title_is_not_empty %}
+    <h2 class="block-title">{{ section.title }}</h2>
+    {% endif %}
+    {% assign subtitle_is_not_empty = section.subtitle | is_not_empty %}
+    {% if subtitle_is_not_empty %}
+    <p class="block-subtitle">
+      {{ section.subtitle }}
+    </p>
+    {% endif %}
+  </div>
+
+  <br><br>
+
+  <div class="inner">
+
+    <div>
+
+      <h3 id="ep-17---technologys-impact-on-journalism-and-black-lives-matter">
+        Ep. 17 - Technology's impact on journalism and Black Lives Matter
+      </h3>
+      <p><em>Published on: January 26, 2021</em></p>
+
+      <p>
+        On this episode, we interview <b>Carlisa Johnson</b>, multimedia journalist based in Atlanta. Her work focuses on race and gender politics, specifically highlighting experiences within the African Diaspora. We started things off by talking about Carlisa's career and her experience as a journalist, we also explored the connection between journalism and technology, and finally talked about activism, and her protagonism in the Black Lives Matter movement.<br><br>On every episode, we ask our guests what book is currently on their night stand, and what book would they recommend for us to know more about what they do.
+      </p>
+
+      <iframe
+        class="podcastPlayer"
+        src="https://anchor.fm/themanuscript/embed/episodes/17-Technologys-impact-on-journalism-and-Black-Lives-Matter-epg80h"
+        height="191.25px"
+        width="400px"
+        frameborder="0"
+        scrolling="no"
+      ></iframe>
+
+      <h3 id="ep-16---data-science-communication-and-ai-ethics">
+        Ep. 16 - Data Science, communication and AI ethics
+      </h3>
+      <p><em>Published on: January 12, 2021</em></p>
+
+      <p>
+        On this episode, we interview <b>Ayodele Odubela</b>, a Data Scientist and AI Ethicist who believes we should be using tech to make the lives of marginalized people better. We dive deep into the world of Data Science, Machine Learning and AI, and the challenges of communicating data. We also explore how we should bring more ethics and diversity into the field, if we want to create a more equal and just society, especially for underrepresented minorities.<br><br>Checkout Ayodele's books in the links below:<br><a target="_blank" href="https://www.ayodeleodubela.com/uncovering-bias-in-ml">Uncovering Bias in ML</a><br><a target="_blank" href="https://www.ayodeleodubela.com/product/getting-started-in-data-science">Getting started in Data Science</a>
+      </p>
+
+      <iframe
+        class="podcastPlayer"
+        src="https://anchor.fm/themanuscript/embed/episodes/16-Data-Science--communication-and-AI-ethics-eomskf"
+        height="191.25px"
+        width="400px"
+        frameborder="0"
+        scrolling="no"
+      ></iframe>
+
+      <h3 id="ep-15---art-and-tech-from-physical-to-digital">
+        Ep. 15 - Art and tech - from physical to digital
+      </h3>
+      <p><em>Published on: December 15, 2020</em></p>
+
+      <p>
+        This episode is for all the art lovers out there, who are also passionate about tech.<br><br>We've interviewed <b>Clare Brooks</b>, who's worked as a creative producer in animation from Universal Studios to Nexus in London, making a move to AR and VR storytelling in Google and Facebook, and finally taking a leap into the art world. Now she's a producer at Google Arts and Culture Lab, experimenting with AI and machine learning.<br><br>She talks about the challenges of  bringing an artwork from physical to digital and vice versa, the impact COVID-19 has brought to her industry and how we consume art, and also the role of writing and communication in all of it.
+      </p>
+
+      <iframe
+        class="podcastPlayer"
+        src="https://anchor.fm/themanuscript/embed/episodes/15-Art-and-tech---from-physical-to-digital-enr70t"
+        height="191.25px"
+        width="400px"
+        frameborder="0"
+        scrolling="no"
+      ></iframe>
+
+      <h3 id="ep-14---mini-episode-newsletters-and-book-recomendations">
+        Ep. 14 - mini episode: Newsletters and book recommendations
+      </h3>
+      <p><em>Published on: December 02, 2020</em></p>
+
+      <p>
+        And today we're breaking the rules. This is a special, surprise, mini episode for you.<br><br>So last week we talked to <b>Beatriz Guarezi</b> about breaking the rules of content creation through newsletters. She’s a Senior Brand Manager at Liv Up, inhabiting the universe of brands since 2013 through research, consulting and content creation. She's the author and creator of Bits to Brands, a weekly newsletter that unites the fields of brand and technology, reaching thousands of professionals throughout Brazil.<br><br>And as you know, in the Manuscript we have a block where we ask our guests  what are they currently reading, and also their book recommendations for the episode's theme.  And Beatriz, being the incredible curator that she is, has given you a gift: here you can find links for this massive booklist she has curated over the years. And to celebrate this gift, we decided to keep our chat with her about books, and quarantining in a separate episode. So listen to that bit of our interview in this special, mini episode, and don't forget to checkout the links below to collect your gift!<br><br>Book lists:<br><a target="_blank" href="https://medium.com/bits-to-brands/saia-da-internet-e-v%C3%A1-ler-um-livro-c7d1e1d24236">Saia da internet e vá ler um livro</a><br><a target="_blank" href="https://medium.com/bits-to-brands/estante-coletiva-5270043cd77e">Estante coletiva</a><br><br>For our non-portuguese-speaking listeners: although the articles above are in Portuguese, there's an Amazon link to all books cited, so you can purchase the english version.
+      </p>
+
+      <iframe
+        class="podcastPlayer"
+        src="https://anchor.fm/themanuscript/embed/episodes/14-mini-episode-Newsletters-and-book-recommendations-en932l"
+        height="191.25px"
+        width="400px"
+        frameborder="0"
+        scrolling="no"
+      ></iframe>
+
+      <h3 id="ep-13---newsletters-curation-and-breaking-the-rules-of-content-creation">
+        Ep. 13 - Newsletters, curation & breaking the rules of content creation
+      </h3>
+      <p><em>Published on: November 17, 2020</em></p>
+
+      <p>
+        In this episode we interviewed <b>Beatriz Guarezi</b>, talking about breaking the rules of content creation through newsletters. She’s a Senior Brand Manager at Liv Up, inhabiting the universe of brands since 2013 through research, consulting and content creation. She's the author and creator of Bits to Brands, a weekly newsletter that unites the fields of brand and technology, reaching thousands of professionals throughout Brazil.<br><br>If you're brazilian, or a portuguese speaker, subscribe to Bits to Brands through the link below: https://www.bitstobrands.com/
+      </p>
+
+      <iframe
+        class="podcastPlayer"
+        src="https://anchor.fm/themanuscript/embed/episodes/13-Newsletters--curation--breaking-the-rules-of-content-creation-emjhon"
+        height="191.25px"
+        width="400px"
+        frameborder="0"
+        scrolling="no"
+      ></iframe>
+
+      <h3 id="ep-12---teaching-and-tw-2">
+        Ep. 12 - Teaching and Tech Writing - Part 2'
+      </h3>
+      <p><em>Published on: November 03, 2020</em></p>
+
+      <p>
+        In this episode we chatted with <b>George Brindeiro</b>, who is the head of VTEX's Education team. Our chat was so insightful we didn’t want to keep any details out, so we actually split our conversation into two episodes. On part two we dive deep into our experience with tech writing, illustrating our chat with lots of real cases that happen in our day to day work, our team rituals that make us grow personally and as a team, and how we deal with our documentation challenges. So listen to parts 1 and 2 to get the full experience.
+      </p>
+
+      <iframe
+        class="podcastPlayer"
+        src="https://anchor.fm/themanuscript/embed/episodes/11-Teaching-and-Tech-Writing---Part-1-ehnisa"
+        height="191.25px"
+        width="400px"
+        frameborder="0"
+        scrolling="no"
+      ></iframe>
+
+      <h3 id="ep-11---teaching-and-tw-1">
+        Ep. 11 - Teaching and Tech Writing - Part 1'
+      </h3>
+      <p><em>Published on: August 05, 2020</em></p>
+
+      <p>
+        In this episode we chatted with <b>George Brindeiro</b>, who is the head of VTEX's Education team. Our chat was so insightful we didn’t want to keep any details out, so we actually split our conversation into two episodes. On part one we talked about how George’s career path brought him into technical writing, how his experience as a teacher reflects on his work today, and our discovery of the technical writing universe.<br>Part 2 is already available! Listen to both episodes, to get the full experience.
+      </p>
+
+      <iframe
+        class="podcastPlayer"
+        src="https://anchor.fm/themanuscript/embed/episodes/11-Teaching-and-Tech-Writing---Part-1-ehnisa"
+        height="191.25px"
+        width="400px"
+        frameborder="0"
+        scrolling="no"
+      ></iframe>
+
+      <h3 id="ep-10---ux-writing-beyond-fixing-the-words">
+        Ep. 10 - UX Writing - beyond 'fixing the words'
+      </h3>
+      <p><em>Published on: June 30, 2020</em></p>
+
+      <p>
+        In this episode we cover a very special subject for us: UX Writing with <b>Torrey Podmajersky</b>. Torrey's the author of the best-seller book Strategic Writing for UX and is currently a UX writer and content strategy consultant for Google. She's built an inspiring career getting involved in the most varied spaces, from high school teaching, to  fiction writing, and content strategy for numerous organizations. We started off by talking about her career, followed by the universe of UX writing itself, and of course, its application in the tech industry and digital products. We close our chat by discussing her amazing book that is definitely a major reference in the field.<br><br>We are both from Brazil, and some times a few Brazilian memes or expressions end up slipping past us, during the interviews. To comment on the one at 58:40'':<br><br>Whenever brazilians want to say that they joined or started something way before it was hyped, or well developed, we say "when I first came here, everything was just made up of grass/undergrowth". Meaning, nothing was built yet, everything was still green. Any brazilian listeners out there who agree with our translation?
+      </p>
+
+      <iframe
+        class="podcastPlayer"
+        src="https://anchor.fm/themanuscript/embed/episodes/10-UX-Writing---beyond-fixing-the-words-eg4guu"
+        height="191.25px"
+        width="400px"
+        frameborder="0"
+        scrolling="no"
+      ></iframe>
+
+      <h3 id="ep-9---where-design-tech-and-writing-meet">
+        Ep. 9 - Where design, tech and writing meet
+      </h3>
+      <p><em>Published on: May 25, 2020</em></p>
+
+      <p>
+        In this episode we interviewed <strong>Daniel Fosco</strong>, Senior
+        Product Designer at Booking.com. Exploring the relationship between
+        design, writing and technology, Daniel shares his perspective on UX design
+        processes, web design practices, as well as the collaboration with tech
+        and UX writers. We balanced our conversation between practical advices for
+        designing developer’s experience, and abstract queries about design
+        principles and typography.
+      </p>
+
+      <iframe
+        class="podcastPlayer"
+        src="https://anchor.fm/themanuscript/embed/episodes/9-Where-design--tech-and-writing-meet-efls6c"
+        height="191.25px"
+        width="400px"
+        frameborder="0"
+        scrolling="no"
+      ></iframe>
+
+      <h3 id="ep-8---40-countries-7-languages-localization-and-global-expansion">
+        Ep. 8 - 40 countries, 7 languages: localization and global expansion
+      </h3>
+      <p><em>Published on: May 11, 2020</em></p>
+
+      <p>
+        In this episode we were honoured to interview
+        <strong>Larissa Mansur</strong>, head of localization and global expansion
+        at Mindvalley. Mindvalley is the world’s leading personal growth platform
+        with 12 million students subscribed, and they have the mission of making
+        their content accessible for 7 different languages. Having lived in more
+        than 8 countries herself, Larissa truly understands the impact of language
+        and culture, and we talk about the power and challenges of localization,
+        and the particularities of it within the tech industry.
+      </p>
+
+      <iframe
+        class="podcastPlayer"
+        src="https://anchor.fm/themanuscript/embed/episodes/8-40-countries--7-languages-localization-and-global-expansion-eembkd"
+        height="191.25px"
+        width="400px"
+        frameborder="0"
+        scrolling="no"
+      ></iframe>
+
+      <h3
+        id="ep-7---how-to-build-an-organizations-personality-with-tone-and-voice"
+      >
+        Ep. 7 - How to build an organization’s personality with Tone and Voice
+      </h3>
+      <p><em>Published on: April 27, 2020</em></p>
+
+      <p>
+        In this episode, we had the pleasure of interviewing
+        <strong>Mary K. Nielsen</strong>, UX Content Strategist at Mailchimp.
+        Balancing philosophical aspects of Tone and Voice, but also giving
+        practical guidance, we discussed how to build a company’s personality
+        inside and outside digital products using this essential writing
+        principle. Mailchimp is definitely a key reference when it comes to Tone
+        and Voice within a company’s communication strategy, and we had a chance
+        to understand how its own T&amp;V was built.
+      </p>
+
+      <iframe
+        class="podcastPlayer"
+        src="https://anchor.fm/themanuscript/embed/episodes/7-How-to-build-an-organizations-personality-with-Tone-and-Voice-edjmef"
+        height="191.25px"
+        width="400px"
+        frameborder="0"
+        scrolling="no"
+      ></iframe>
+
+      <h3
+        id="ep-6---spreading-knowledge-through-writing-in-the-biggest-fintech-in-latin-america"
+      >
+        Ep. 6 - Spreading knowledge through writing in the biggest fintech in
+        Latin America
+      </h3>
+      <p><em>Published on: April 13, 2020</em></p>
+
+      <p>
+        In this episode of The Manuscript, we talk to
+        <strong>Paulo Victor</strong>, a technical writer currently working for
+        Nubank, the largest fintech in Latin America and one of the most
+        innovative companies in the world. He explores the challenge of
+        deciphering the financial universe for a knowledgeable internal audience,
+        talks about the challenge of being the company’s first tech writer, and
+        addresses the advantages and disadvantages of being a writer with an
+        engineering background.
+      </p>
+
+      <iframe
+        class="podcastPlayer"
+        src="https://anchor.fm/themanuscript/embed/episodes/6-Spreading-knowledge-through-writing-in-the-biggest-fintech-in-Latin-America-ed9kpu"
+        height="191.25px"
+        width="400px"
+        frameborder="0"
+        scrolling="no"
+      ></iframe>
+
+      <h3 id="ep-5---what-you-didnt-know-about-innovation-and-storytelling">
+        Ep. 5 - What you didn’t know about innovation (and storytelling)
+      </h3>
+      <p><em>Published on: March 30, 2020</em></p>
+
+      <p>
+        In this episode, we interview <strong>Sarah Arruda</strong>, Executive
+        Producer at Tendril Studio. Sarah is a creative producer, experimenting
+        with new media technologies to bring the digital world to life in the
+        physical space. Here she talks about the challenges and benefits of
+        dealing with multidisciplinary projects, the integration of writing,
+        storytelling and technology, the ways she interacts with the tech aspect
+        of innovation, and the boundaries between innovation and creativity.
+      </p>
+
+      <iframe
+        class="podcastPlayer"
+        src="https://anchor.fm/themanuscript/embed/episodes/5-What-you-didnt-know-about-innovation-and-storytelling-ec6n00"
+        height="191.25px"
+        frameborder="0"
+        scrolling="no"
+      ></iframe>
+
+      <h3 id="ep-4---the-paths-for-a-writer-towards-senior-positions-in-tech">
+        Ep. 4 - The paths for a writer towards senior positions in tech
+      </h3>
+      <p><em>Published on: March 16, 2020</em></p>
+
+      <p>
+        <strong>Christopher Gales</strong> is the Senior Director of Documentation
+        at Splunk. He has more than 20 years of experience in technical
+        communications and engineering program management. In Splunk, he leads a
+        team of 40+ writers, who form one of the best tech comm teams in the
+        industry today. In this episode, he talks about reaching senior levels in
+        a tech writing career, the organization of his team, the importance of
+        customer feedback in our field, how to instill a documentation culture in
+        our companies and what to look for when hiring writers.
+      </p>
+
+      <iframe
+        class="podcastPlayer"
+        src="https://anchor.fm/themanuscript/embed/episodes/The-paths-for-a-writer-towards-senior-positions-in-tech-ebid83"
+        height="191.25px"
+        frameborder="0"
+        scrolling="no"
+      ></iframe>
+
+      <h3 id="ep-3---focusing-on-skills-to-show-tech-writing-is-not-boring">
+        Ep. 3 - Focusing on skills to show Tech Writing is not boring
+      </h3>
+      <p><em>Published on: March 02, 2020</em></p>
+
+      <p>
+        <strong>Jacob Moses</strong> is the creator of The Not-Boring Tech Writer
+        podcast. In each episode, Jacob covers a new tech writing skill, with the
+        goal of showing tools all of us can use to become better writers and
+        proving this is far from a tedious career. In doing that, he helps to
+        raise awareness about the field and improves the sense of a Tech Writing
+        community.
+      </p>
+
+      <iframe
+        class="podcastPlayer"
+        src="https://anchor.fm/themanuscript/embed/episodes/Focusing-on-skills-to-show-Tech-Writing-is-not-boring-eb6tsv"
+        height="191.25px"
+        frameborder="0"
+        scrolling="no"
+      ></iframe>
+
+      <h3 id="ep-2---how-technical-should-a-tech-writer-be">
+        Ep. 2 - How technical should a tech writer be?
+      </h3>
+      <p><em>Published on: February 24, 2020</em></p>
+
+      <p>
+        <strong>Tom Johnson</strong> is a technical writer from California,
+        currently working for Amazon in the Appstore group. He is also the creator
+        of the blog I’d Rather Be Writing, one of the most influential blogs on
+        technical communications today. In this episode, Tom explores how a tech
+        writer should approach the balance between writing expertise and technical
+        knowledge. He also talks about the most common pitfalls in writing API
+        documentation and shares his thoughts on how beginner writers should
+        tackle the challenge of learning to use and document APIs.
+      </p>
+
+      <iframe
+        class="podcastPlayer"
+        src="https://anchor.fm/themanuscript/embed/episodes/How-technical-should-a-tech-writer-be-eb6njl"
+        height="191.25px"
+        frameborder="0"
+        scrolling="no"
+      ></iframe>
+
+      <h3 id="ep-1---every-page-is-still-page-one">
+        Ep. 1 - Every Page is Still Page One
+      </h3>
+      <p><em>Published on: February 17, 2020</em></p>
+
+      <p>
+        In this episode, we interview <strong>Mark Baker</strong> who is the
+        author of the book Every Page is Page One. Originally published in 2013,
+        this book has become an absolute classic in the Content Strategy field. In
+        this interview, Mark explains how turning web pages into self-contained
+        topics is the way to make content that serves its purposes and gets found
+        by the users.
+      </p>
+
+      <iframe
+        class="podcastPlayer"
+        src="https://anchor.fm/themanuscript/embed/episodes/Every-Page-is-Still-Page-One-eb76fq"
+        height="191.25px"
+        frameborder="0"
+        scrolling="no"
+      ></iframe>
+    </div>
+  </div>
+</section>
+<!-- .block -->
