@@ -26,9 +26,10 @@ seo:
 layout: page
 ---
 
-You can find the episodes of The Manu&lt;script&gt; on all the main podcasting platforms. Although we don’t have a super strict publishing schedule, we try to post new episodes at least once a month.
+We interview people from all over the world making a difference wherever there’s writing and technology involved. 
+We try to surprise you with new episodes at least once a month. 
 
-Choose your platform and be happy:
+Tune in to the show, and get inspired: 
 
 <br>
 <div class="platforms-wrapper">

@@ -38,13 +38,13 @@ sections:
     background: white
     title: The Hosts
     subtitle: >-
-      Who is behind the podcast and why we do it.
+      Who is behind the podcast.
     reviews:
       - author: Juliana Meyer
         avatar: images/julianaMeyer.jpg
         avatar_alt: Juliana Meyer's photo
         content: >-
-          Juliana is a Technical Writer working for VTEX. Her background is in Management but she's curious enough to move across multiple areas such as UX, Writing, and Information Architecture.
+          Ju graduated in Business and is currently a tech writer in VTEX. Previously worked for an animation studio in London, and at social impact organisations in Mexico, Brazil and Panama.
       - author: Breno Barreto
         avatar: images/brenoBarreto.jpg
         avatar_alt: Breno Barreto's photo

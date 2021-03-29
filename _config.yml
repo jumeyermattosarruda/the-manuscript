@@ -46,8 +46,8 @@ footer:
           icon: twitter
           icon_position: left
     - type: footer_form
-      title: Subscribe
-      content: Stay up to date with what we're doing.
+      title: Stay tuned!
+      content: Subscribe to the show on your favorite platform.
       form_id: contactForm
       hide_labels: true
       form_fields:
