@@ -1,7 +1,7 @@
 ---
 title: Booklist
 subtitle: >-
- Check out our <a target="_blank" href="http://bit.ly/the-manuscript-goodreads">Goodreads Bookshelf</a> with our guest's book recommendations.
+ Check out our Goodreads Bookshelf with our guest's book recommendations.
 image: images/Booklist.jpg
 # image_alt: 
 seo:
