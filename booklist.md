@@ -26,10 +26,10 @@ seo:
 layout: page
 ---
 
-<p> On every episode, we ask our guests what book is currently on their night stand, and what book would they recommend for us to know more about what they do. To enrich your experience with our show and to foster our shared passion of writing, books and technology, we created a Goodreads bookshelf assembling all of our guests' book recommendations! From Harry Potter, to Strategic Writing for UX, our list will definitely inspire you. </p>
+<p> On every episode, we ask our guests what book is currently on their night stand, and what book would they recommend for us to know more about what they do. To enrich your experience with our show and to foster our shared passion of writing, books and technology, we created a Goodreads bookshelf assembling all of our guests' book recommendations! From <i>Harry Potter</>, to <i>Strategic Writing for UX</i>, our list will definitely inspire you. </p>
 
 
 <h2>
 <a target="_blank" href="http://bit.ly/the-manuscript-goodreads">Goodreads Bookshelf</a>
  </h2>
- 
+
