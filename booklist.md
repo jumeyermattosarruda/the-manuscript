@@ -2,7 +2,7 @@
 title: Booklist
 subtitle: >-
  Check out our Goodreads Bookshelf with our guest's book recommendations.
-image: images/Booklist.jpg
+image: images/booklist.jpg
 # image_alt: 
 seo:
   title: The Manuscript bookshelf
@@ -31,5 +31,5 @@ layout: page
 
 <h2>
 <a target="_blank" href="http://bit.ly/the-manuscript-goodreads">Goodreads Bookshelf</a>
- </h2>
+</h2>
 
