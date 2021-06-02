@@ -20,6 +20,9 @@ header:
     - label: Subscribe
       url: /subscribe
       style: primary
+    - label: Booklist
+      url: /booklist
+      style: link
 footer:
   sections:
     - type: footer_text
