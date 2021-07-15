@@ -44,7 +44,7 @@ sections:
         avatar: images/julianaMeyer.jpg
         avatar_alt: Juliana Meyer's photo
         content: >-
-          Ju graduated in Business and is currently a tech writer in VTEX. Previously worked for an animation studio in London, and at social impact organisations in Mexico, Brazil and Panama.
+          Ju graduated in Business and is currently a lead tech writer at VTEX. Previously worked for an animation studio in London and at social impact organisations in Mexico, Brazil and Panama.
   - section_id: call-to-action
     type: section_cta
     title: Stay tuned!
