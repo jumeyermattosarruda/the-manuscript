@@ -36,7 +36,7 @@ sections:
   - section_id: reviews
     type: section_reviews
     background: white
-    title: The Hosts
+    title: The Host
     subtitle: >-
       Who is behind the podcast.
     reviews:
@@ -45,11 +45,6 @@ sections:
         avatar_alt: Juliana Meyer's photo
         content: >-
           Ju graduated in Business and is currently a tech writer in VTEX. Previously worked for an animation studio in London, and at social impact organisations in Mexico, Brazil and Panama.
-      - author: Breno Barreto
-        avatar: images/brenoBarreto.jpg
-        avatar_alt: Breno Barreto's photo
-        content: >-
-          Breno is a Journalist and Software Development enthusiast. After working at companies such as TV Globo, L'Oréal, and VTEX, he currently works as a Technical Writer at Nubank's engineering team.
   - section_id: call-to-action
     type: section_cta
     title: Stay tuned!
